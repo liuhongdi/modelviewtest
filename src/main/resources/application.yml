@@ -1,0 +1,18 @@
+#error
+server:
+  error:
+    include-stacktrace: always
+#errorlog
+logging:
+  level:
+    org:
+      springframework:
+        web: trace
+#thymeleaf
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
